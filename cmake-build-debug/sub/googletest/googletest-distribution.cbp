@@ -5,7 +5,7 @@
 		<Option title="googletest-distribution"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\Calc\;CMake Files\sub\;CMake Files\sub\googletest\;CMake Files\sub\googletest\googlemock\;CMake Files\sub\googletest\googlemock\cmake\;CMake Files\sub\googletest\googletest\;CMake Files\sub\googletest\googletest\cmake\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Calc\;CMake Files\Calc\test\;CMake Files\sub\;CMake Files\sub\googletest\;CMake Files\sub\googletest\googlemock\;CMake Files\sub\googletest\googlemock\cmake\;CMake Files\sub\googletest\googletest\;CMake Files\sub\googletest\googletest\cmake\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/sub/googletest"/>
@@ -227,6 +227,9 @@
 		</Unit>
 		<Unit filename="C:/Users/aproemkin/CLionProjects/Task_1/Calc/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Calc\"/>
+		</Unit>
+		<Unit filename="C:/Users/aproemkin/CLionProjects/Task_1/Calc/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Calc\test\"/>
 		</Unit>
 		<Unit filename="C:/Users/aproemkin/CLionProjects/Task_1/sub/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\sub\googletest\"/>

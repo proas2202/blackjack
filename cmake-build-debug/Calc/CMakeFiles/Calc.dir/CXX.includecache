@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-../Calc/strCalc.h
-
-C:/Users/aproemkin/CLionProjects/Task_1/Calc/test/Calc_test.cpp
+C:/Users/aproemkin/CLionProjects/Task_1/Calc/strCalc.cpp
 strCalc.h
-C:/Users/aproemkin/CLionProjects/Task_1/Calc/test/strCalc.h
+C:/Users/aproemkin/CLionProjects/Task_1/Calc/strCalc.h
+
+C:/Users/aproemkin/CLionProjects/Task_1/Calc/strCalc.h
 

@@ -330,6 +330,12 @@ INSTALL_GTEST:BOOL=ON
 PYTHON_EXECUTABLE:FILEPATH=C:/lib/miniconda3/python.exe
 
 //Value Computed by CMake
+TEST_BINARY_DIR:STATIC=C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/Calc/test
+
+//Value Computed by CMake
+TEST_SOURCE_DIR:STATIC=C:/Users/aproemkin/CLionProjects/Task_1/Calc/test
+
+//Value Computed by CMake
 Task_1_BINARY_DIR:STATIC=C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug
 
 //Value Computed by CMake
@@ -526,7 +532,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

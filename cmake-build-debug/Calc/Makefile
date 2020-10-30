@@ -217,33 +217,6 @@ strCalc.cpp.s:
 	cd /d C:\Users\aproemkin\CLionProjects\Task_1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Calc\CMakeFiles\Calc.dir\build.make Calc/CMakeFiles/Calc.dir/strCalc.cpp.s
 .PHONY : strCalc.cpp.s
 
-test/Calc_test.obj: test/Calc_test.cpp.obj
-
-.PHONY : test/Calc_test.obj
-
-# target to build an object file
-test/Calc_test.cpp.obj:
-	cd /d C:\Users\aproemkin\CLionProjects\Task_1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Calc\CMakeFiles\Calc.dir\build.make Calc/CMakeFiles/Calc.dir/test/Calc_test.cpp.obj
-.PHONY : test/Calc_test.cpp.obj
-
-test/Calc_test.i: test/Calc_test.cpp.i
-
-.PHONY : test/Calc_test.i
-
-# target to preprocess a source file
-test/Calc_test.cpp.i:
-	cd /d C:\Users\aproemkin\CLionProjects\Task_1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Calc\CMakeFiles\Calc.dir\build.make Calc/CMakeFiles/Calc.dir/test/Calc_test.cpp.i
-.PHONY : test/Calc_test.cpp.i
-
-test/Calc_test.s: test/Calc_test.cpp.s
-
-.PHONY : test/Calc_test.s
-
-# target to generate assembly for a file
-test/Calc_test.cpp.s:
-	cd /d C:\Users\aproemkin\CLionProjects\Task_1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Calc\CMakeFiles\Calc.dir\build.make Calc/CMakeFiles/Calc.dir/test/Calc_test.cpp.s
-.PHONY : test/Calc_test.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -260,9 +233,6 @@ help:
 	@echo ... strCalc.obj
 	@echo ... strCalc.i
 	@echo ... strCalc.s
-	@echo ... test/Calc_test.obj
-	@echo ... test/Calc_test.i
-	@echo ... test/Calc_test.s
 .PHONY : help
 
 

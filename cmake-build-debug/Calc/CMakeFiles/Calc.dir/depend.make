@@ -4,6 +4,3 @@
 Calc/CMakeFiles/Calc.dir/strCalc.cpp.obj: ../Calc/strCalc.cpp
 Calc/CMakeFiles/Calc.dir/strCalc.cpp.obj: ../Calc/strCalc.h
 
-Calc/CMakeFiles/Calc.dir/test/Calc_test.cpp.obj: ../Calc/strCalc.h
-Calc/CMakeFiles/Calc.dir/test/Calc_test.cpp.obj: ../Calc/test/Calc_test.cpp
-

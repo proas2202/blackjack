@@ -1,9 +1,4 @@
-//
-// Created by aproemkin on 29.10.2020.
-//
-
 #include "strCalc.h"
-
 
 int Calc::fact(int number){
     int result = 1;
@@ -14,8 +9,8 @@ int Calc::fact(int number){
         }
     }
     else if ( number < 0 ) {
-        number = -1;
+        result = -1;
     }
 
-    return number;
+    return result;
 }

@@ -5,7 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/aproemkin/CLionProjects/Task_1/Calc/strCalc.cpp" "C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/Calc/CMakeFiles/Calc.dir/strCalc.cpp.obj"
-  "C:/Users/aproemkin/CLionProjects/Task_1/Calc/test/Calc_test.cpp" "C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/Calc/CMakeFiles/Calc.dir/test/Calc_test.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

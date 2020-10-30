@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Calc.dir/strCalc.cpp.obj"
-  "CMakeFiles/Calc.dir/test/Calc_test.cpp.obj"
   "libCalc.a"
   "libCalc.pdb"
 )

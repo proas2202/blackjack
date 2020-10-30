@@ -90,33 +90,17 @@ Calc/CMakeFiles/Calc.dir/strCalc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Calc.dir/strCalc.cpp.s"
 	cd /d C:\Users\aproemkin\CLionProjects\Task_1\cmake-build-debug\Calc && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\aproemkin\CLionProjects\Task_1\Calc\strCalc.cpp -o CMakeFiles\Calc.dir\strCalc.cpp.s
 
-Calc/CMakeFiles/Calc.dir/test/Calc_test.cpp.obj: Calc/CMakeFiles/Calc.dir/flags.make
-Calc/CMakeFiles/Calc.dir/test/Calc_test.cpp.obj: Calc/CMakeFiles/Calc.dir/includes_CXX.rsp
-Calc/CMakeFiles/Calc.dir/test/Calc_test.cpp.obj: ../Calc/test/Calc_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aproemkin\CLionProjects\Task_1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Calc/CMakeFiles/Calc.dir/test/Calc_test.cpp.obj"
-	cd /d C:\Users\aproemkin\CLionProjects\Task_1\cmake-build-debug\Calc && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Calc.dir\test\Calc_test.cpp.obj -c C:\Users\aproemkin\CLionProjects\Task_1\Calc\test\Calc_test.cpp
-
-Calc/CMakeFiles/Calc.dir/test/Calc_test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Calc.dir/test/Calc_test.cpp.i"
-	cd /d C:\Users\aproemkin\CLionProjects\Task_1\cmake-build-debug\Calc && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aproemkin\CLionProjects\Task_1\Calc\test\Calc_test.cpp > CMakeFiles\Calc.dir\test\Calc_test.cpp.i
-
-Calc/CMakeFiles/Calc.dir/test/Calc_test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Calc.dir/test/Calc_test.cpp.s"
-	cd /d C:\Users\aproemkin\CLionProjects\Task_1\cmake-build-debug\Calc && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\aproemkin\CLionProjects\Task_1\Calc\test\Calc_test.cpp -o CMakeFiles\Calc.dir\test\Calc_test.cpp.s
-
 # Object files for target Calc
 Calc_OBJECTS = \
-"CMakeFiles/Calc.dir/strCalc.cpp.obj" \
-"CMakeFiles/Calc.dir/test/Calc_test.cpp.obj"
+"CMakeFiles/Calc.dir/strCalc.cpp.obj"
 
 # External object files for target Calc
 Calc_EXTERNAL_OBJECTS =
 
 Calc/libCalc.a: Calc/CMakeFiles/Calc.dir/strCalc.cpp.obj
-Calc/libCalc.a: Calc/CMakeFiles/Calc.dir/test/Calc_test.cpp.obj
 Calc/libCalc.a: Calc/CMakeFiles/Calc.dir/build.make
 Calc/libCalc.a: Calc/CMakeFiles/Calc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\aproemkin\CLionProjects\Task_1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libCalc.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\aproemkin\CLionProjects\Task_1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libCalc.a"
 	cd /d C:\Users\aproemkin\CLionProjects\Task_1\cmake-build-debug\Calc && $(CMAKE_COMMAND) -P CMakeFiles\Calc.dir\cmake_clean_target.cmake
 	cd /d C:\Users\aproemkin\CLionProjects\Task_1\cmake-build-debug\Calc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Calc.dir\link.txt --verbose=$(VERBOSE)
 

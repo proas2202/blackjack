@@ -43,6 +43,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/JetBrains/CLion 2020.2.4/bin/cmake/win/share/cmake-3.17/Modules/WriteBasicConfigVersionFile.cmake"
   "../CMakeLists.txt"
   "../Calc/CMakeLists.txt"
+  "../Calc/test/CMakeLists.txt"
   "CMakeFiles/3.17.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.17.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.17.3/CMakeRCCompiler.cmake"
@@ -67,18 +68,20 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Calc/CMakeFiles/CMakeDirectoryInformation.cmake"
   "sub/googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
   "sub/googletest/googlemock/CMakeFiles/CMakeDirectoryInformation.cmake"
   "sub/googletest/googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Calc/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Calc/test/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Task_1.dir/DependInfo.cmake"
-  "Calc/CMakeFiles/Calc.dir/DependInfo.cmake"
   "sub/googletest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
   "sub/googletest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
   "sub/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   "sub/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "Calc/CMakeFiles/Calc.dir/DependInfo.cmake"
+  "Calc/test/CMakeFiles/TEST.dir/DependInfo.cmake"
   )

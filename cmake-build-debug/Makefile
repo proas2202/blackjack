@@ -189,19 +189,6 @@ Task_1/fast:
 .PHONY : Task_1/fast
 
 #=============================================================================
-# Target rules for targets named Calc
-
-# Build rule for target.
-Calc: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Calc
-.PHONY : Calc
-
-# fast build rule for target.
-Calc/fast:
-	$(MAKE) $(MAKESILENT) -f Calc\CMakeFiles\Calc.dir\build.make Calc/CMakeFiles/Calc.dir/build
-.PHONY : Calc/fast
-
-#=============================================================================
 # Target rules for targets named gmock_main
 
 # Build rule for target.
@@ -253,6 +240,32 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f sub\googletest\googletest\CMakeFiles\gtest_main.dir\build.make sub/googletest/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
+#=============================================================================
+# Target rules for targets named Calc
+
+# Build rule for target.
+Calc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Calc
+.PHONY : Calc
+
+# fast build rule for target.
+Calc/fast:
+	$(MAKE) $(MAKESILENT) -f Calc\CMakeFiles\Calc.dir\build.make Calc/CMakeFiles/Calc.dir/build
+.PHONY : Calc/fast
+
+#=============================================================================
+# Target rules for targets named TEST
+
+# Build rule for target.
+TEST: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TEST
+.PHONY : TEST
+
+# fast build rule for target.
+TEST/fast:
+	$(MAKE) $(MAKESILENT) -f Calc\test\CMakeFiles\TEST.dir\build.make Calc/test/CMakeFiles/TEST.dir/build
+.PHONY : TEST/fast
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -293,6 +306,7 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... Calc
+	@echo ... TEST
 	@echo ... Task_1
 	@echo ... gmock
 	@echo ... gmock_main

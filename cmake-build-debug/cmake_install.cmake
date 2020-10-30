@@ -34,12 +34,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/Calc/cmake_install.cmake")
+  include("C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/sub/googletest/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/sub/googletest/cmake_install.cmake")
+  include("C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/Calc/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

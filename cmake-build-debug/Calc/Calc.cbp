@@ -5,7 +5,7 @@
 		<Option title="Calc"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\Calc\;CMake Files\sub\;CMake Files\sub\googletest\;CMake Files\sub\googletest\googlemock\;CMake Files\sub\googletest\googlemock\cmake\;CMake Files\sub\googletest\googletest\;CMake Files\sub\googletest\googletest\cmake\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Calc\;CMake Files\Calc\test\;CMake Files\sub\;CMake Files\sub\googletest\;CMake Files\sub\googletest\googlemock\;CMake Files\sub\googletest\googlemock\cmake\;CMake Files\sub\googletest\googletest\;CMake Files\sub\googletest\googletest\cmake\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/Calc"/>
@@ -61,6 +61,54 @@
 					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/Calc/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="TEST">
+				<Option output="C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/Calc/test/TEST.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/Calc/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/aproemkin/CLionProjects/Task_1/Calc/."/>
+					<Add directory="C:/Users/aproemkin/CLionProjects/Task_1/sub/googletest/googletest/include"/>
+					<Add directory="C:/Users/aproemkin/CLionProjects/Task_1/sub/googletest/googletest"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/Calc/test/Makefile&quot;  VERBOSE=1 TEST"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/Calc/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/Calc/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/Calc/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TEST/fast">
+				<Option output="C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/Calc/test/TEST.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/Calc/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/aproemkin/CLionProjects/Task_1/Calc/."/>
+					<Add directory="C:/Users/aproemkin/CLionProjects/Task_1/sub/googletest/googletest/include"/>
+					<Add directory="C:/Users/aproemkin/CLionProjects/Task_1/sub/googletest/googletest"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/Calc/test/Makefile&quot;  VERBOSE=1 TEST/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/Calc/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/Calc/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/Calc/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="C:/Users/aproemkin/CLionProjects/Task_1/Calc/strCalc.cpp">
 			<Option target="Calc"/>
@@ -69,13 +117,16 @@
 			<Option target="Calc"/>
 		</Unit>
 		<Unit filename="C:/Users/aproemkin/CLionProjects/Task_1/Calc/test/Calc_test.cpp">
-			<Option target="Calc"/>
+			<Option target="TEST"/>
 		</Unit>
 		<Unit filename="C:/Users/aproemkin/CLionProjects/Task_1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 		<Unit filename="C:/Users/aproemkin/CLionProjects/Task_1/Calc/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Calc\"/>
+		</Unit>
+		<Unit filename="C:/Users/aproemkin/CLionProjects/Task_1/Calc/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Calc\test\"/>
 		</Unit>
 		<Unit filename="C:/Users/aproemkin/CLionProjects/Task_1/sub/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\sub\googletest\"/>

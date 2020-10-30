@@ -3,6 +3,8 @@ project(Calc)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_library(Calc strCalc.h strCalc.cpp test/Calc_test.cpp)
+add_library(Calc strCalc.h strCalc.cpp )
+
+add_subdirectory(test)
 
 target_include_directories(Calc PUBLIC .)
