@@ -1,8 +1,8 @@
-C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/CMakeFiles/Assignment_2.dir
 C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/CMakeFiles/install/local.dir
 C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/CMakeFiles/install.dir
 C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/CMakeFiles/Task_1.dir
+C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/CMakeFiles/list_install_components.dir
 C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/CMakeFiles/install/strip.dir
 C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/Calc/CMakeFiles/Calc.dir

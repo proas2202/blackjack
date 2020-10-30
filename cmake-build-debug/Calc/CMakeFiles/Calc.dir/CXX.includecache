@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Calc/strCalc.h
+
+C:/Users/aproemkin/CLionProjects/Task_1/Calc/test/Calc_test.cpp
+strCalc.h
+C:/Users/aproemkin/CLionProjects/Task_1/Calc/test/strCalc.h
+

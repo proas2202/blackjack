@@ -72,7 +72,7 @@ CMAKE_BINARY_DIR = C:\Users\aproemkin\CLionProjects\Task_1\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Assignment_2.dir/all
+all: CMakeFiles/Task_1.dir/all
 all: Calc/all
 all: sub/googletest/all
 
@@ -85,7 +85,7 @@ preinstall: sub/googletest/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Assignment_2.dir/clean
+clean: CMakeFiles/Task_1.dir/clean
 clean: Calc/clean
 clean: sub/googletest/clean
 
@@ -170,31 +170,31 @@ sub/googletest/googletest/clean: sub/googletest/googletest/CMakeFiles/gtest_main
 .PHONY : sub/googletest/googletest/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Assignment_2.dir
+# Target rules for target CMakeFiles/Task_1.dir
 
 # All Build rule for target.
-CMakeFiles/Assignment_2.dir/all: Calc/CMakeFiles/Calc.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\aproemkin\CLionProjects\Task_1\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Assignment_2"
-.PHONY : CMakeFiles/Assignment_2.dir/all
+CMakeFiles/Task_1.dir/all: Calc/CMakeFiles/Calc.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_1.dir\build.make CMakeFiles/Task_1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_1.dir\build.make CMakeFiles/Task_1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\aproemkin\CLionProjects\Task_1\cmake-build-debug\CMakeFiles --progress-num=4,5 "Built target Task_1"
+.PHONY : CMakeFiles/Task_1.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Assignment_2.dir/rule: cmake_check_build_system
+CMakeFiles/Task_1.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\aproemkin\CLionProjects\Task_1\cmake-build-debug\CMakeFiles 5
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Assignment_2.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Task_1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\aproemkin\CLionProjects\Task_1\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/Assignment_2.dir/rule
+.PHONY : CMakeFiles/Task_1.dir/rule
 
 # Convenience name for target.
-Assignment_2: CMakeFiles/Assignment_2.dir/rule
+Task_1: CMakeFiles/Task_1.dir/rule
 
-.PHONY : Assignment_2
+.PHONY : Task_1
 
 # clean rule for target.
-CMakeFiles/Assignment_2.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/clean
-.PHONY : CMakeFiles/Assignment_2.dir/clean
+CMakeFiles/Task_1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_1.dir\build.make CMakeFiles/Task_1.dir/clean
+.PHONY : CMakeFiles/Task_1.dir/clean
 
 #=============================================================================
 # Target rules for target Calc/CMakeFiles/Calc.dir
@@ -203,7 +203,7 @@ CMakeFiles/Assignment_2.dir/clean:
 Calc/CMakeFiles/Calc.dir/all:
 	$(MAKE) $(MAKESILENT) -f Calc\CMakeFiles\Calc.dir\build.make Calc/CMakeFiles/Calc.dir/depend
 	$(MAKE) $(MAKESILENT) -f Calc\CMakeFiles\Calc.dir\build.make Calc/CMakeFiles/Calc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\aproemkin\CLionProjects\Task_1\cmake-build-debug\CMakeFiles --progress-num=3,4,5 "Built target Calc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\aproemkin\CLionProjects\Task_1\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target Calc"
 .PHONY : Calc/CMakeFiles/Calc.dir/all
 
 # Build rule for subdir invocation for target.

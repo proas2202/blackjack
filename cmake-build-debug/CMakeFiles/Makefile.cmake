@@ -75,7 +75,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Assignment_2.dir/DependInfo.cmake"
+  "CMakeFiles/Task_1.dir/DependInfo.cmake"
   "Calc/CMakeFiles/Calc.dir/DependInfo.cmake"
   "sub/googletest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
   "sub/googletest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"

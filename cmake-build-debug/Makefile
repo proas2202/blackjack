@@ -75,17 +75,6 @@ CMAKE_BINARY_DIR = C:\Users\aproemkin\CLionProjects\Task_1\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -120,6 +109,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # Special rule for the target list_install_components
 list_install_components:
@@ -176,17 +176,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Assignment_2
+# Target rules for targets named Task_1
 
 # Build rule for target.
-Assignment_2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Assignment_2
-.PHONY : Assignment_2
+Task_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Task_1
+.PHONY : Task_1
 
 # fast build rule for target.
-Assignment_2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/build
-.PHONY : Assignment_2/fast
+Task_1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_1.dir\build.make CMakeFiles/Task_1.dir/build
+.PHONY : Task_1/fast
 
 #=============================================================================
 # Target rules for targets named Calc
@@ -259,7 +259,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_1.dir\build.make CMakeFiles/Task_1.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -268,7 +268,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_1.dir\build.make CMakeFiles/Task_1.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -277,7 +277,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_1.dir\build.make CMakeFiles/Task_1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -292,8 +292,8 @@ help:
 	@echo ... install/strip
 	@echo ... list_install_components
 	@echo ... rebuild_cache
-	@echo ... Assignment_2
 	@echo ... Calc
+	@echo ... Task_1
 	@echo ... gmock
 	@echo ... gmock_main
 	@echo ... gtest
