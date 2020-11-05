@@ -41,6 +41,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/JetBrains/CLion 2020.2.4/bin/cmake/win/share/cmake-3.17/Modules/Platform/WindowsPaths.cmake"
   "C:/Program Files/JetBrains/CLion 2020.2.4/bin/cmake/win/share/cmake-3.17/Modules/ProcessorCount.cmake"
   "C:/Program Files/JetBrains/CLion 2020.2.4/bin/cmake/win/share/cmake-3.17/Modules/WriteBasicConfigVersionFile.cmake"
+  "../Blackjack/CMakeLists.txt"
+  "../Blackjack/DeckPile/CMakeLists.txt"
+  "../Blackjack/DeckPile/Deck/CMakeLists.txt"
+  "../Blackjack/DeckPile/Deck/test_deck/CMakeLists.txt"
   "../CMakeLists.txt"
   "../Calc/CMakeLists.txt"
   "../Calc/test/CMakeLists.txt"
@@ -73,6 +77,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "sub/googletest/googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Calc/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Calc/test/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Blackjack/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Blackjack/DeckPile/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Blackjack/DeckPile/Deck/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Blackjack/DeckPile/Deck/test_deck/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -84,4 +92,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "sub/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
   "Calc/CMakeFiles/Calc.dir/DependInfo.cmake"
   "Calc/test/CMakeFiles/TEST.dir/DependInfo.cmake"
+  "Blackjack/CMakeFiles/Blackjack.dir/DependInfo.cmake"
+  "Blackjack/DeckPile/CMakeFiles/DeckPile.dir/DependInfo.cmake"
+  "Blackjack/DeckPile/Deck/CMakeFiles/Deck.dir/DependInfo.cmake"
+  "Blackjack/DeckPile/Deck/test_deck/CMakeFiles/TEST_DECK.dir/DependInfo.cmake"
   )

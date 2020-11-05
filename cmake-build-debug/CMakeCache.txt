@@ -14,14 +14,14 @@
 # EXTERNAL cache entries
 ########################
 
-//Value Computed by CMake
-Assignment_2_BINARY_DIR:STATIC=C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug
-
-//Value Computed by CMake
-Assignment_2_SOURCE_DIR:STATIC=C:/Users/aproemkin/CLionProjects/Task_1
-
 //Builds the googlemock subproject
 BUILD_GMOCK:BOOL=ON
+
+//Value Computed by CMake
+Blackjack_BINARY_DIR:STATIC=C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/Blackjack
+
+//Value Computed by CMake
+Blackjack_SOURCE_DIR:STATIC=C:/Users/aproemkin/CLionProjects/Task_1/Blackjack
 
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/addr2line.exe
@@ -163,7 +163,7 @@ CMAKE_INSTALL_MANDIR:PATH=
 CMAKE_INSTALL_OLDINCLUDEDIR:PATH=/usr/include
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/Assignment_2
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/Task_1
 
 //Run-time variable data (LOCALSTATEDIR/run)
 CMAKE_INSTALL_RUNSTATEDIR:PATH=
@@ -322,6 +322,18 @@ Calc_BINARY_DIR:STATIC=C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug
 //Value Computed by CMake
 Calc_SOURCE_DIR:STATIC=C:/Users/aproemkin/CLionProjects/Task_1/Calc
 
+//Value Computed by CMake
+DeckPile_BINARY_DIR:STATIC=C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/Blackjack/DeckPile
+
+//Value Computed by CMake
+DeckPile_SOURCE_DIR:STATIC=C:/Users/aproemkin/CLionProjects/Task_1/Blackjack/DeckPile
+
+//Value Computed by CMake
+Deck_BINARY_DIR:STATIC=C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/Blackjack/DeckPile/Deck
+
+//Value Computed by CMake
+Deck_SOURCE_DIR:STATIC=C:/Users/aproemkin/CLionProjects/Task_1/Blackjack/DeckPile/Deck
+
 //Enable installation of googletest. (Projects embedding googletest
 // may want to turn this OFF.)
 INSTALL_GTEST:BOOL=ON
@@ -331,6 +343,12 @@ PYTHON_EXECUTABLE:FILEPATH=C:/lib/miniconda3/python.exe
 
 //Value Computed by CMake
 TEST_BINARY_DIR:STATIC=C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/Calc/test
+
+//Value Computed by CMake
+TEST_DECK_BINARY_DIR:STATIC=C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/Blackjack/DeckPile/Deck/test_deck
+
+//Value Computed by CMake
+TEST_DECK_SOURCE_DIR:STATIC=C:/Users/aproemkin/CLionProjects/Task_1/Blackjack/DeckPile/Deck/test_deck
 
 //Value Computed by CMake
 TEST_SOURCE_DIR:STATIC=C:/Users/aproemkin/CLionProjects/Task_1/Calc/test
@@ -532,7 +550,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -591,7 +609,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[C:/lib/miniconda3/python.exe
 //ADVANCED property for variable: PYTHON_EXECUTABLE
 PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
 //CMAKE_INSTALL_PREFIX during last run
-_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/Assignment_2
+_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/Task_1
 generated_dir:INTERNAL=C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/sub/googletest/googletest/generated
 //ADVANCED property for variable: gmock_build_tests
 gmock_build_tests-ADVANCED:INTERNAL=1

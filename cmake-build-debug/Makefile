@@ -266,6 +266,58 @@ TEST/fast:
 	$(MAKE) $(MAKESILENT) -f Calc\test\CMakeFiles\TEST.dir\build.make Calc/test/CMakeFiles/TEST.dir/build
 .PHONY : TEST/fast
 
+#=============================================================================
+# Target rules for targets named Blackjack
+
+# Build rule for target.
+Blackjack: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Blackjack
+.PHONY : Blackjack
+
+# fast build rule for target.
+Blackjack/fast:
+	$(MAKE) $(MAKESILENT) -f Blackjack\CMakeFiles\Blackjack.dir\build.make Blackjack/CMakeFiles/Blackjack.dir/build
+.PHONY : Blackjack/fast
+
+#=============================================================================
+# Target rules for targets named DeckPile
+
+# Build rule for target.
+DeckPile: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DeckPile
+.PHONY : DeckPile
+
+# fast build rule for target.
+DeckPile/fast:
+	$(MAKE) $(MAKESILENT) -f Blackjack\DeckPile\CMakeFiles\DeckPile.dir\build.make Blackjack/DeckPile/CMakeFiles/DeckPile.dir/build
+.PHONY : DeckPile/fast
+
+#=============================================================================
+# Target rules for targets named Deck
+
+# Build rule for target.
+Deck: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Deck
+.PHONY : Deck
+
+# fast build rule for target.
+Deck/fast:
+	$(MAKE) $(MAKESILENT) -f Blackjack\DeckPile\Deck\CMakeFiles\Deck.dir\build.make Blackjack/DeckPile/Deck/CMakeFiles/Deck.dir/build
+.PHONY : Deck/fast
+
+#=============================================================================
+# Target rules for targets named TEST_DECK
+
+# Build rule for target.
+TEST_DECK: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TEST_DECK
+.PHONY : TEST_DECK
+
+# fast build rule for target.
+TEST_DECK/fast:
+	$(MAKE) $(MAKESILENT) -f Blackjack\DeckPile\Deck\test_deck\CMakeFiles\TEST_DECK.dir\build.make Blackjack/DeckPile/Deck/test_deck/CMakeFiles/TEST_DECK.dir/build
+.PHONY : TEST_DECK/fast
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -305,8 +357,12 @@ help:
 	@echo ... install/strip
 	@echo ... list_install_components
 	@echo ... rebuild_cache
+	@echo ... Blackjack
 	@echo ... Calc
+	@echo ... Deck
+	@echo ... DeckPile
 	@echo ... TEST
+	@echo ... TEST_DECK
 	@echo ... Task_1
 	@echo ... gmock
 	@echo ... gmock_main

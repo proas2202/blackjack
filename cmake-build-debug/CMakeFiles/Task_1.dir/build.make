@@ -100,6 +100,9 @@ Task_1_EXTERNAL_OBJECTS =
 Task_1.exe: CMakeFiles/Task_1.dir/main.cpp.obj
 Task_1.exe: CMakeFiles/Task_1.dir/build.make
 Task_1.exe: Calc/libCalc.a
+Task_1.exe: Blackjack/DeckPile/Deck/libDeck.a
+Task_1.exe: Blackjack/DeckPile/libDeckPile.a
+Task_1.exe: Blackjack/libBlackjack.a
 Task_1.exe: CMakeFiles/Task_1.dir/linklibs.rsp
 Task_1.exe: CMakeFiles/Task_1.dir/objects1.rsp
 Task_1.exe: CMakeFiles/Task_1.dir/link.txt

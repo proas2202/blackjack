@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Assignment_2")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Task_1")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,6 +40,11 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/Calc/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/Blackjack/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

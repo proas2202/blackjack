@@ -5,7 +5,7 @@
 		<Option title="TEST"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\Calc\;CMake Files\Calc\test\;CMake Files\sub\;CMake Files\sub\googletest\;CMake Files\sub\googletest\googlemock\;CMake Files\sub\googletest\googlemock\cmake\;CMake Files\sub\googletest\googletest\;CMake Files\sub\googletest\googletest\cmake\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Blackjack\;CMake Files\Blackjack\DeckPile\;CMake Files\Blackjack\DeckPile\Deck\;CMake Files\Blackjack\DeckPile\Deck\test_deck\;CMake Files\Calc\;CMake Files\Calc\test\;CMake Files\sub\;CMake Files\sub\googletest\;CMake Files\sub\googletest\googlemock\;CMake Files\sub\googletest\googlemock\cmake\;CMake Files\sub\googletest\googletest\;CMake Files\sub\googletest\googletest\cmake\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Users/aproemkin/CLionProjects/Task_1/cmake-build-debug/Calc/test"/>
@@ -71,6 +71,18 @@
 		</Unit>
 		<Unit filename="C:/Users/aproemkin/CLionProjects/Task_1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/aproemkin/CLionProjects/Task_1/Blackjack/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Blackjack\"/>
+		</Unit>
+		<Unit filename="C:/Users/aproemkin/CLionProjects/Task_1/Blackjack/DeckPile/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Blackjack\DeckPile\"/>
+		</Unit>
+		<Unit filename="C:/Users/aproemkin/CLionProjects/Task_1/Blackjack/DeckPile/Deck/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Blackjack\DeckPile\Deck\"/>
+		</Unit>
+		<Unit filename="C:/Users/aproemkin/CLionProjects/Task_1/Blackjack/DeckPile/Deck/test_deck/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Blackjack\DeckPile\Deck\test_deck\"/>
 		</Unit>
 		<Unit filename="C:/Users/aproemkin/CLionProjects/Task_1/Calc/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Calc\"/>
