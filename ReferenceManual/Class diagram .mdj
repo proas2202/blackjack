@@ -2419,7 +2419,7 @@
 											"top": 692,
 											"width": 207,
 											"height": 13,
-											"text": "+getValue()",
+											"text": "+get_value()",
 											"horizontalAlignment": 0
 										}
 									],
@@ -5638,7 +5638,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF1nHHZvFtYn88="
 							},
-							"name": "getValue"
+							"name": "get_value"
 						}
 					]
 				},

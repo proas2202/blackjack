@@ -3,7 +3,7 @@ project(Blackjack)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_library(Blackjack Blackjack.h Blackjack.cpp )
+add_library(Blackjack Blackjack.h Blackjack.cpp)
 
 add_subdirectory(DeckPile)
 
