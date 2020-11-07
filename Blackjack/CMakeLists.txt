@@ -6,6 +6,7 @@ set(CMAKE_CXX_STANDARD 14)
 add_library(Blackjack Blackjack.h Blackjack.cpp)
 
 add_subdirectory(DeckPile)
+add_subdirectory(Actor)
 
 #add_subdirectory(test_deck)
 

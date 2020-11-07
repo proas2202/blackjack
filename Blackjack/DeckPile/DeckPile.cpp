@@ -28,3 +28,14 @@ void DeckPile::shuffle(){
 std::vector<Card> DeckPile::get_shoe(){
     return m_shoe;
 }
+
+int DeckPile::get_card_number(){
+    return m_shoe.size();
+}
+
+Card DeckPile::get_card(){
+    Card lastCard = m_shoe.back();
+    m_shoe.pop_back();
+    return lastCard;
+}
+
