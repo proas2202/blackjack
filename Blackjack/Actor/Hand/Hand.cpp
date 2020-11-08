@@ -46,3 +46,15 @@ int Hand::get_score() {
     }
     return score;
 }
+
+std::vector<Card> Hand::get_hand(){
+    return cardInHand;
+}
+
+int Hand::get_bet(){
+    return m_bet;
+}
+
+void Hand::set_bet(int bet_i){
+    m_bet = bet_i;
+}

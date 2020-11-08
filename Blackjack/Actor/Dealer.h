@@ -11,15 +11,21 @@
 #include "Actor.h"
 #include "Player.h"
 
-class  Dealer : Actor {
+class Player;
+
+class Dealer : Actor{
 
 public:
-    void players_init(std::vector<Player>* players_i);
-    void reward_card();
+    void linking(std::vector<Player>* players_in, DeckPile* deckPile_i);
     void start_round();
     void finish_round();
 private:
     std::vector<Player>* players;
+    Hand hideHand;
+
+    void reward_card();
+    void open_hide_card();
+    void draw_cards();
 };
 
 

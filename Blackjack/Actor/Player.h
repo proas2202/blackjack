@@ -11,19 +11,31 @@
 #include "Actor.h"
 #include "Dealer.h"
 
-class  Player : Actor {
+
+class  Dealer;
+class Actor;
+
+class Player : Actor{
 
 public:
-    void dealer_linking(std::vector<Player>* players_i);
-    void make_bet(int bet);
+
+    void linking(Dealer* dealer_i, DeckPile* deckPile_i);
+    void set_cash(int cash_i);
+    void accept_card(Card card_i);
+
+    std::vector<Hand>* get_hand_ptr();
+
+    void reckoning(int bet_i, int coeff);
+    void make_bet();
+
+    void make_move();
     void split();
     void req_bj_feed();
+
 private:
-    std::vector<Dealer>* dealer;
+    int cash;
+    Dealer* dealer;
 };
-
-
-
 
 
 #endif //TASK_1_PLAYER_H

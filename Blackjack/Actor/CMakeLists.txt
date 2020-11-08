@@ -9,6 +9,6 @@ add_subdirectory(Hand)
 
 #add_subdirectory(test)
 
-target_link_libraries(ACTORS Hand)
+target_link_libraries(ACTORS HAND DeckPile)
 
-target_include_directories(DeckPile PUBLIC .)
+target_include_directories(ACTORS PUBLIC .)

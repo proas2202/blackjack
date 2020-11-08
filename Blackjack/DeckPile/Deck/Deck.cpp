@@ -17,14 +17,14 @@ void Deck::deck_init(){
    int cardCount = 0;
    for (int inc_suit = 0; inc_suit < c_numberOfSuit; inc_suit++){
        for (int inc_value = 0; inc_value < c_numberOfValue; inc_value++){
-           deck_stack.push_back(Card(card_suit_translate(inc_suit),card_value_translate(inc_value)));
+           deckStack.push_back(Card(card_suit_translate(inc_suit),card_value_translate(inc_value)));
            cardCount++;
        }
    }
 }
 
 std::vector<Card> Deck::get_deck() {
-    return deck_stack;
+    return deckStack;
 }
 
 CardSuit Deck::card_suit_translate(int suit_index){

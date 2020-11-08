@@ -47,8 +47,8 @@ public:
         m_value = value_i;
     }
 
-    CardValue get_value();
     CardSuit get_suit();
+    CardValue get_value();
 
 private:
     CardSuit m_suit;
@@ -62,12 +62,13 @@ public:
     static const int c_deckSize = 52;
     static const int c_numberOfSuit = 4;
     static const int c_numberOfValue = 13;
+
     void   deck_init();
     std::vector<Card> get_deck();
     static CardSuit card_suit_translate(int suit_index);
     static CardValue card_value_translate(int value_index);
 private:
-    std::vector<Card> deck_stack;
+    std::vector<Card> deckStack;
 };
 
 

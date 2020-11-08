@@ -9,5 +9,5 @@ add_subdirectory(DeckPile)
 add_subdirectory(Actor)
 
 #add_subdirectory(test_deck)
-
+target_link_libraries(Blackjack HAND ACTORS)
 target_include_directories(Blackjack PUBLIC .)
