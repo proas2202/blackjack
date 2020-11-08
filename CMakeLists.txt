@@ -5,6 +5,7 @@ add_subdirectory(sub/googletest)
 
 add_subdirectory(Calc)
 add_subdirectory(Blackjack)
+add_subdirectory(playerInterface)
 
 set(CMAKE_CXX_STANDARD 14)
 

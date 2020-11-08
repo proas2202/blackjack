@@ -7,7 +7,7 @@ add_library(ACTORS Actor.h Actor.cpp Dealer.h Dealer.cpp Player.h Player.cpp)
 
 add_subdirectory(Hand)
 
-#add_subdirectory(test)
+add_subdirectory(test)
 
 target_link_libraries(ACTORS HAND DeckPile)
 
