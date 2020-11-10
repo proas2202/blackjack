@@ -33,6 +33,9 @@ void ConsoleModule::send_message(std::string message){
     std::cout << message << std::endl;
 }
 
+
+/////////// ------------- Console callback -----------------
+
 void CommandLine::hit(std::string message){
     std::cout << "hit command!!!!!!" << std::endl;
 }
